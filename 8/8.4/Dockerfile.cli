@@ -40,6 +40,7 @@ RUN apt-get -y update && apt-get -y upgrade && ACCEPT_EULA=Y && apt-get install 
         libc-dev \
         pkg-config \ 
         iputils-ping \
+        gettext-base \
     && pecl install redis \
     && pecl install apcu \
     && pecl install memcached \
